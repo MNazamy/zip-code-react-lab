@@ -1,6 +1,39 @@
+.card{
+  flex: 1 0 40%;
+  margin: auto;
+  width: 40%;
+  text-align: left;
+}
+
+.card-holder{
+  margin: auto;
+  float: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%
+
+
+}
+
+
 .App-header {
   background-color: #222;
-  padding: 20px;
+  padding: 2%;
   color: white;
+  margin-bottom: 10px;
+
+}
+
+.App-body{
+  justify-content: 'center';
+  margin-top: 5px;
+}
+
+
+.cardtitle{
+  background-color: lightgrey;
   text-align: center;
+  font-weight: bold;
+
 }
